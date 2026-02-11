@@ -42,7 +42,7 @@ export const validateSignup = async (
   }
 
   const signupSchema = joi.object({
-    role: joi.string().min(3).max(50),
+    role: joi.string().required().min(3).max(50),
     firstName: joi.string().required(),
     lastName: joi.string().required(),
     email: joi
