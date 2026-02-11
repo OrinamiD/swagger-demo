@@ -22,6 +22,7 @@ const userSchema: Schema<IUser> = new mongoose.Schema(
       type: String,
       enum: ["user", "admin"],
       default: "user",
+      required: true,
     },
     firstName: {
       type: String,
