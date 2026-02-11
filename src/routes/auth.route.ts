@@ -1,30 +1,3 @@
-// import express, { Router } from "express";
-// import { validateSignup } from "../middlewares/auth.middleware.js";
-// import {
-//   handleForgotPassword,
-//   handleLogin,
-//   handleResendOtp,
-//   handleResetPassword,
-//   otpVerification,
-//   registration,
-// } from "../controllers/auth.controller.js";
-
-// const router: Router = express.Router();
-
-// router.post("/signup", validateSignup, registration);
-
-// router.post("/verify-otp", otpVerification);
-
-// router.post("/login", handleLogin);
-
-// router.post("/resend-otp", handleResendOtp);
-
-// router.post("/forgotten-password", handleForgotPassword);
-
-// router.post("/reset-password", handleResetPassword);
-
-// export default router;
-
 import { Router } from "express";
 import {
   registration,
