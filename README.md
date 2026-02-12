@@ -1,5 +1,5 @@
 1️⃣ Clone the repository
-git clone <your-repo-url>
+git clone https://github.com/OrinamiD/swagger-demo.git
 cd <project-folder>
 
 2️⃣ Install dependencies
